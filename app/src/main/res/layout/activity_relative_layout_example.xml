@@ -4,12 +4,47 @@
                 android:layout_height="match_parent"
                 tools:context=".MainActivity">
 
+    <!--<Button-->
+        <!--android:id="@+id/a"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="カナイ"-->
+        <!--android:textSize="16sp"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/b"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/a"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:text="オーハシ"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/c"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/a"-->
+        <!--android:layout_toRightOf="@+id/b"-->
+        <!--android:text="ヤマサキ"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/d"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/a"-->
+        <!--android:layout_alignBottom="@+id/c"-->
+        <!--android:layout_alignTop="@+id/b"-->
+        <!--android:layout_toRightOf="@+id/c"-->
+        <!--android:text="オータケ"/>-->
+
     <Button
         android:id="@+id/a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
         android:text="カナイ"
         android:textSize="16sp"/>
 
