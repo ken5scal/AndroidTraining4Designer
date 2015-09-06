@@ -27,17 +27,6 @@
         <!--android:textColor="@android:color/white"-->
         <!--android:textSize="16sp"/>-->
 
-    <!-- weightの説明用-->
-    <!--<TextView-->
-        <!--android:id="@+id/a"-->
-        <!--android:layout_width="180dp"-->
-        <!--android:layout_height="0dp"-->
-        <!--android:layout_weight="1"-->
-        <!--android:background="@android:color/black"-->
-        <!--android:text="カナイ"-->
-        <!--android:textColor="@android:color/white"-->
-        <!--android:textSize="16sp"/>-->
-
     <TextView
     android:id="@+id/b"
     android:layout_width="180dp"
@@ -86,6 +75,24 @@
             <!--android:layout_height="wrap_content"-->
             <!--android:text="オータケ"/>-->
         <!-- -->
+        <!--&lt;!&ndash; Weight 説明用&ndash;&gt;-->
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/c"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:gravity="center"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="ヤマサキ"/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/d"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;android:gravity="center"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="オータケ"/>&ndash;&gt;-->
+        <!-- -->
+         <!-- -->
     <!--</LinearLayout>-->
 
 </LinearLayout>
