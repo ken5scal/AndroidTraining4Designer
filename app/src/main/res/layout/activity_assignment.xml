@@ -28,16 +28,8 @@
     </LinearLayout>
 
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <!-- TODO: もにょもにょして背景色がオレンジのロゴを作る-->
-        <!-- ここから-->
-        <!-- ここまで-->
-
-
-    </FrameLayout>
+    <!-- TODO: 画面下半分にもにょもにょして背景色がオレンジのロゴを作る-->
+    <!-- ここから-->
+    <!-- ここまで-->
 
 </LinearLayout>
