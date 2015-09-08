@@ -17,19 +17,71 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="これを真似してみる。色は#FE9626で"
+            android:text="これを真似してみる。背景色は#FE9626で"
             android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ImageViewを使う時、android:srcで画像を指定"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ロゴの画像名はlogo。文字はletters"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='例: android:src="@drawable/logo"で指定'
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:background="#FE9626"
-            android:src="@drawable/logo_orange_backgorund"/>
+            android:src="@drawable/answer"/>
     </LinearLayout>
 
 
     <!-- TODO: 画面下半分にもにょもにょして背景色がオレンジのロゴを作る-->
     <!-- ここから-->
     <!-- ここまで-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FE9626"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="4dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/logo"
+                    android:paddingLeft="4dp"
+                    android:src="@drawable/letters"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </FrameLayout>
 
 </LinearLayout>
