@@ -1,22 +1,22 @@
-package com.example.kengo.myapplication;
+package com.example.kengo.android4designer;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class LinearLayoutExampleActivity extends Activity {
+public class NonLayoutActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_linear_layout_example);
+        setContentView(R.layout.activity_non_layout);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_linear_layout_example, menu);
+        getMenuInflater().inflate(R.menu.menu_non_layout, menu);
         return true;
     }
 

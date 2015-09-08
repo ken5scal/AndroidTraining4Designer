@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kengo.myapplication" >
+    package="com.example.kengo.android4designer" >
 
     <application
         android:allowBackup="true"
@@ -27,6 +27,14 @@
         <activity
             android:name=".FrameLayoutExampleActivity"
             android:label="@string/title_activity_frame_layout_example" >
+        </activity>
+        <activity
+            android:name=".AssignmentActivity"
+            android:label="@string/title_activity_assignment" >
+        </activity>
+        <activity
+            android:name=".NonLayoutActivity"
+            android:label="@string/title_activity_non_layout" >
         </activity>
     </application>
 

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.example.kengo.myapplication"
+        applicationId "com.example.kengo.android4designer"
         minSdkVersion 22
         targetSdkVersion 22
         versionCode 1

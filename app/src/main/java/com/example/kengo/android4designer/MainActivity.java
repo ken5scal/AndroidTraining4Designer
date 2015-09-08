@@ -1,4 +1,4 @@
-package com.example.kengo.myapplication;
+package com.example.kengo.android4designer;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -19,10 +19,13 @@ public class MainActivity extends Activity {
         ButterKnife.inject(this);
     }
 
-    @OnClick({R.id.linearlayout_ex, R.id.relative_layout_ex, R.id.frame_layout_ex})
+    @OnClick({R.id.non_layout_view, R.id.linearlayout_ex, R.id.relative_layout_ex, R.id.frame_layout_ex, R.id.assignment})
     public void onClickExample(View v) {
         Class clazz = LinearLayoutExampleActivity.class;
         switch (v.getId()) {
+            case R.id.non_layout_view:
+                clazz = NonLayoutActivity.class;
+                break;
             case R.id.linearlayout_ex:
                 break;
             case R.id.relative_layout_ex:
@@ -30,6 +33,9 @@ public class MainActivity extends Activity {
                 break;
             case R.id.frame_layout_ex:
                 clazz = FrameLayoutExampleActivity.class;
+                break;
+            case R.id.assignment:
+                clazz = AssignmentActivity.class;
                 break;
         }
         startActivity(new Intent(this, clazz));

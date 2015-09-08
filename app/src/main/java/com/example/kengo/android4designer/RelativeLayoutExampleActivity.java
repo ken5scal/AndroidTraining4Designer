@@ -1,4 +1,4 @@
-package com.example.kengo.myapplication;
+package com.example.kengo.android4designer;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -6,4 +6,6 @@
     <string name="title_activity_linear_layout_example">LinearLayoutExample</string>
     <string name="title_activity_relative_layout_example">RelativeLayoutExampleActivity</string>
     <string name="title_activity_frame_layout_example">FrameLayoutExampleActivity</string>
+    <string name="title_activity_assignment">AssignmentActivity</string>
+    <string name="title_activity_non_layout">NonLayoutActivity</string>
 </resources>
