@@ -39,10 +39,31 @@
         android:text="Frame Layout Example"/>
 
     <Button
-        android:id="@+id/assignment"
+        android:id="@+id/layout_assignment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="実習"/>
+        android:text="レイアウト実習"/>
+
+    <Button
+        android:id="@+id/single_animation_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="アニメーション例(単一)"/>
+
+    <Button
+        android:id="@+id/multiple_animation_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="アニメーション例(複合)"/>
+
+    <Button
+        android:id="@+id/animation_assignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="アニメーション実習"/>
 
 </LinearLayout>

@@ -36,6 +36,18 @@
             android:name=".NonLayoutActivity"
             android:label="@string/title_activity_non_layout" >
         </activity>
+        <activity
+            android:name=".SingleAnimationExampleActivity"
+            android:label="@string/title_activity_single_animation_example" >
+        </activity>
+        <activity
+            android:name=".MultipleAnimationExampleActivity"
+            android:label="@string/title_activity_multiple_animation_example" >
+        </activity>
+        <activity
+            android:name=".AnimationAssignmentActivity"
+            android:label="@string/title_activity_animation_assignment" >
+        </activity>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               android:paddingTop="@dimen/activity_vertical_margin"
-              tools:context="com.example.kengo.android4designer.AssignmentActivity">
+              tools:context="com.example.kengo.android4designer.LayoutAssignmentActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,10 +49,6 @@
     <!-- TODO: 画面下半分にもにょもにょして背景色がオレンジのロゴを作る-->
     <!-- ここから-->
     <!-- ここまで-->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
 
 
         <FrameLayout
@@ -82,6 +78,6 @@
                     android:src="@drawable/letters"/>
             </RelativeLayout>
         </FrameLayout>
-    </FrameLayout>
+
 
 </LinearLayout>

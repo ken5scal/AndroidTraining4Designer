@@ -19,7 +19,10 @@ public class MainActivity extends Activity {
         ButterKnife.inject(this);
     }
 
-    @OnClick({R.id.non_layout_view, R.id.linearlayout_ex, R.id.relative_layout_ex, R.id.frame_layout_ex, R.id.assignment})
+    @OnClick({
+            R.id.non_layout_view, R.id.linearlayout_ex, R.id.relative_layout_ex, R.id.frame_layout_ex, R.id.layout_assignment,
+            R.id.single_animation_example, R.id.multiple_animation_example, R.id.animation_assignment
+    })
     public void onClickExample(View v) {
         Class clazz = LinearLayoutExampleActivity.class;
         switch (v.getId()) {
@@ -34,8 +37,17 @@ public class MainActivity extends Activity {
             case R.id.frame_layout_ex:
                 clazz = FrameLayoutExampleActivity.class;
                 break;
-            case R.id.assignment:
-                clazz = AssignmentActivity.class;
+            case R.id.layout_assignment:
+                clazz = LayoutAssignmentActivity.class;
+                break;
+            case R.id.single_animation_example:
+                clazz = SingleAnimationExampleActivity.class;
+                break;
+            case R.id.multiple_animation_example:
+                clazz = MultipleAnimationExampleActivity.class;
+                break;
+            case R.id.animation_assignment:
+                clazz = AnimationAssignmentActivity.class;
                 break;
         }
         startActivity(new Intent(this, clazz));

@@ -8,4 +8,8 @@
     <string name="title_activity_frame_layout_example">FrameLayoutExampleActivity</string>
     <string name="title_activity_assignment">AssignmentActivity</string>
     <string name="title_activity_non_layout">NonLayoutActivity</string>
+    <string name="title_activity_single_animation_example">SingleAnimationExampleActivity</string>
+    <string name="title_activity_multiple_animation_example">MultipleAnimationExampleActivity
+    </string>
+    <string name="title_activity_animation_assignment">AnimationAssignmentActivity</string>
 </resources>

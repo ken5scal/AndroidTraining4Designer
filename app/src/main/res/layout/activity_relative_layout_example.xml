@@ -8,36 +8,40 @@
         android:id="@+id/a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:gravity="center_vertical"
         android:text="カナイ"
         android:textSize="16sp"/>
 
-    <Button
-        android:id="@+id/b"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/a"
-        android:text="オーハシ"/>
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/c"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/a"
-        android:layout_toRightOf="@+id/b"
-        android:text="ヤマサキ"/>
+        <Button
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-    <Button
-        android:id="@+id/d"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/c"
-        android:layout_alignTop="@+id/b"
-        android:layout_below="@+id/a"
-        android:layout_toRightOf="@+id/c"
-        android:text="オータケ"/>
+            android:text="オーハシ"/>
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="ヤマサキ"/>
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="オータケ"/>
+    </LinearLayout>
+
 
     <!--<Button-->
     <!--android:id="@+id/a"-->
